@@ -320,7 +320,7 @@ span.quote-athor:before{
     color: #fff;
 }
 
-.post-item-title, .card-title{
+.post-item-title, .card-title,.page-title{
     text-transform: capitalize;
 }
 
