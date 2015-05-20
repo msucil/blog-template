@@ -1,0 +1,21 @@
+
+#archieve li a {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #333;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+li.active > a > span.mdi-content-add:before {
+  /*content: "\f115" !important;*/
+  /*content: 'hello'*/
+  /*content: "\f00d";*/
+  content: "\e702";
+  font-family: "Material-Design-Icons";
+}
+
+#archieve li ul li:last-child{
+    border: none;
+}

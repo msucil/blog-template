@@ -1,0 +1,326 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    /*color: #FFF;*/
+    font-weight: 400;
+    background-color: #FAFAFA;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  font-size: 1.5rem;
+}
+
+ul.nav-form{
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 350px;
+  top: 101%;
+}
+
+
+ul.nav-form li{
+    padding: 0;
+    line-height: 1.5em;
+}
+
+ul.nav-form form{
+    padding: 10px;
+}
+
+ul.nav-form form input{
+    font-size: 1.5rem;
+    color: #23527C;
+}
+
+.side-nav a{
+    font-size: 1.5rem;
+}
+
+.side-nav form input{
+    font-size: 1.5rem;
+    color: #23527C;
+}
+
+
+a:hover, a:focus{
+    text-decoration: none;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+  
+  
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+/*index page main section*/
+
+#main-content{
+    margin-top: 85px;
+}
+
+
+/*blog section*/
+.blog-post .card-title{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #d32f2f;
+}
+
+.blog-post .card-action{
+    padding: 10px   20px;
+}
+
+.blog-post .card-action a.blog-btn{
+    margin-right: 0;
+    padding: 10px;
+    font-size: 12px;
+    color: #c62828;
+}
+
+.blog-post .card-action a.blog-btn:hover, .blog-post .card-action a.blog-btn:focus{
+    color: #fff;
+}
+
+.card-content{
+    text-align: justify;
+}
+.blog-post .meta{
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+    margin-bottom: 5px;
+}
+
+
+/*sidebar widget section*/
+.widget{
+    margin-bottom: 50px;
+}
+
+.widget-title{
+    text-transform: uppercase;
+}
+
+.widget-list{
+    list-style-position: outside;
+    margin: 0;
+}
+
+.widget-list li{
+    
+    padding: 10px;
+    line-height: 1.5em;
+    border-bottom: 1px dashed #DEDEDE;
+}
+
+.widget-list li:after{
+    clear: both;
+}
+
+a.widget-more{
+    /*padding: 5px;*/
+    /*background: #EAEAEA none repeat scroll 0% 0%;*/
+    margin-top: 10px;
+}
+
+a.widget-more i{
+    font-size: 30px;
+    color: #C5C5C5;
+}
+
+/*sidebar post section recent post*/
+.post-item img{
+    margin-right: 5px;
+}
+
+.post-item-title{
+    margin: 0;
+}
+
+
+
+.meta span{
+    font-size: 12px;
+    color: #A4A4A4;
+    /*padding: 2px;*/
+}
+
+.meta-span span:before{
+    
+}
+
+.meta span.meta-user:before{
+    content: "\e008";
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.meta span.meta-date:before{
+    content: "\e109";
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.meta span.meta-category:before{
+    content: "\e118";
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.tags{
+    background: #EAEAEA none repeat scroll 0% 0%;
+    padding: 5px;
+    color: #838383;
+}
+
+a.tags:hover, a.tags:focus{
+    color: #fff;
+}
+
+/*/footer section*/
+
+.social-btn i{
+    font-size: 1.5em;
+    border-radius: 5px;
+    /*color: #;*/
+}
+
+.page-footer{
+    background-color: #065F7D !important;
+    color: #C0C0C0
+}
+
+.footer-copyright{
+    color: #C0C0C0;
+    background-color: #084154 !important;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+#quotes{
+    margin-bottom: 15px;
+}
+
+blockquote{
+    border: none;
+    margin-right: 5px;
+    padding-top: 40px;
+    
+}
+
+blockquote:after{
+    content: "\e786";
+    font-family: "Material-Design-Icons";
+    position: absolute;
+    top : 0px;
+    right: 0px;
+    font-size: 60px;
+}
+
+
+
+span.quote-athor:before{
+    content: "\e711";
+    font-family: "Material-Design-Icons";
+    /*color: blue;*/
+}
+
+#about{
+    margin: 25px 0 15px;
+}
+
+.pagination li a{
+    background: #EAEAEA none repeat scroll 0% 0%;
+    color: #5C656C;
+    /*line-height: 1.8em;*/
+}
+
+/*single page section*/
+#page-header{
+    background: #00BCD4 !important;
+    margin-top: 65px;
+    z-index: -100;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.page-title{
+    color: #fff;
+    padding-top: 15px;
+}
+
+#page-header .meta span, .breadcrumb li a{
+    font-size: 14px;
+    color: #fff;
+}
+
+.blog-post .page-tags a, .page-tags i{
+    font-size: 12px;
+    color: #838383;
+    margin: 0;
+}
+.blog-post .page-tags a:hover, .blog-post .page-tags a:focus{
+    color: #fff;
+}
+
+.breadcrumb{
+    background: none;
+    padding: 0;
+}
+
+.breadcrumb > li + li::before {
+    color: #fff;
+}
+
+.post-item-title, .card-title,.page-title{
+    text-transform: capitalize;
+}
+
