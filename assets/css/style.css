@@ -127,7 +127,10 @@ p {
 .blog-post .card-action a.blog-btn:hover, .blog-post .card-action a.blog-btn:focus{
     color: #fff;
 }
-
+.card .card-image .card-title{
+    bottom: -10px;
+    background-color: rgba(0,0,0,0.4);
+}
 .card-content{
     text-align: justify;
 }
